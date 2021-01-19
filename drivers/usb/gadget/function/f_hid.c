@@ -499,7 +499,7 @@ respond:
 	return status;
 }
 
-static void hidg_disable(struct usb_function *f)
+#static void hidg_disable(struct usb_function *f)
 {
 	struct f_hidg *hidg = func_to_hidg(f);
 	struct f_hidg_req_list *list, *next;
